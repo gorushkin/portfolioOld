@@ -7,8 +7,8 @@ body {
 .wrapper {
   width: 1100px;
   margin: 0 auto;
-  /* box-shadow: 0 0 0 3px greenyellow; */
   box-sizing: border-box;
+  /* box-shadow: 0 0 0 3px red; */
 }
 
 .main-header {
@@ -41,11 +41,17 @@ body {
   padding-top: 50px;
   display: flex;
   justify-content: space-evenly;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.work-list-item {
+  /* box-shadow: 0 0 0 3px red; */
 }
 
 .card {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0px 5px 15px 2px rgba(0,0,0,0.5);
