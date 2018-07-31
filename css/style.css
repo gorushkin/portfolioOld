@@ -16,15 +16,38 @@ body {
   margin-bottom: 45px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   main {
     width: 300px;
     margin: 0 auto;
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 651px) and (max-width: 999px) {
+  main {
+    width: 650px;
+    margin: 0 auto;
+  }
+
   .project-list {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-item:nth-child(2n) {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  /* main {
+    width: 650px;
+    margin: 0 auto;
+  } */
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
