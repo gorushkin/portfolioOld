@@ -21,7 +21,6 @@ body {
 .main-title {
   color: #fff;
   text-align: center;
-  
 }
 
 .main-header {
@@ -33,12 +32,15 @@ main {
   border-bottom: 2px solid #f55617;
 }
 
+.main-footer {
+  min-height: 80px;
+}
+
 /*---------- Разрешение до 650 ---------- */
 
 @media (max-width: 650px) {
   .main-title {
     font-size: 35px;
-    background-color: red;
   }
 
   main {
