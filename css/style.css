@@ -16,6 +16,10 @@ body {
   margin-bottom: 45px;
 }
 
+.main-title {
+  text-align: center;
+}
+
 @media (max-width: 650px) {
   main {
     width: 300px;
