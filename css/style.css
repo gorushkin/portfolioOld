@@ -1,6 +1,8 @@
+html,
 body {
   background: #313f49;
   width: 100%;
+
 }
 
 .project-list {
@@ -19,6 +21,7 @@ body {
 .main-title {
   color: #fff;
   text-align: center;
+  
 }
 
 .main-header {
@@ -33,9 +36,12 @@ main {
 /*---------- Разрешение до 650 ---------- */
 
 @media (max-width: 650px) {
+  .main-title {
+    font-size: 35px;
+    background-color: red;
+  }
+
   main {
-    /* width: 300px;
-    margin: 0 auto; */
     padding-top: 50px;
   }
 
@@ -48,9 +54,12 @@ main {
 /*---------- Разрешение от 651 до 1000 ---------- */
 
 @media (min-width: 651px) and (max-width: 999px) {
+
+  .main-title {
+    font-size: 40px;
+  }
+
   main {
-    /* width: 650px;
-    margin: 0 auto; */
     padding-top: 50px;
   }
 
@@ -83,7 +92,7 @@ main {
 
   main {
     padding-top: 50px;
-    height: 100%;
+    min-height: 550px;
   }
 
   .project-list {
