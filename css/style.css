@@ -17,6 +17,7 @@ body {
 }
 
 .main-title {
+  color: #fff;
   text-align: center;
 }
 
@@ -33,6 +34,12 @@ main {
 
 @media (max-width: 650px) {
   main {
+    /* width: 300px;
+    margin: 0 auto; */
+    padding-top: 50px;
+  }
+
+  main .wrapper {
     width: 300px;
     margin: 0 auto;
   }
@@ -42,6 +49,12 @@ main {
 
 @media (min-width: 651px) and (max-width: 999px) {
   main {
+    /* width: 650px;
+    margin: 0 auto; */
+    padding-top: 50px;
+  }
+
+  main .wrapper {
     width: 650px;
     margin: 0 auto;
   }
@@ -49,6 +62,7 @@ main {
   .project-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .project-item:nth-child(2n) {
@@ -61,13 +75,10 @@ main {
 @media (min-width: 1000px) {
   .main-header {
     min-height: 150px;
-    /* padding-top: 50px; */
   }
 
   .main-title {
     font-size: 75px;
-    color: #fff;
-    text-align: center;
   }
 
   main {
