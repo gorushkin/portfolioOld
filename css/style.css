@@ -24,6 +24,7 @@ body {
   /* height: 300px; */
   background: gray;
   margin-bottom: 45px;
+  border-radius: 5px;
 }
 
 .main-title {
