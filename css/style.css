@@ -1,7 +1,13 @@
-html,
+html {
+  height: 100%;
+}
+
 body {
   background: #313f49;
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -24,7 +30,7 @@ body {
 }
 
 .main-header {
-  border-bottom: 2px solid #f55617;
+  /* border-bottom: 2px solid #f55617; */
   box-sizing: border-box;
 }
 
@@ -145,7 +151,8 @@ main {
 
   main {
     padding-top: 50px;
-    min-height: 550px;
+    /* min-height: 550px; */
+    flex-grow: 1;
   }
 
   .project-list {
@@ -155,6 +162,7 @@ main {
   }
 
   .main-footer {
-    height: 100px;
+    min-height: 100px;
+    /* background: red; */
   }
 }
